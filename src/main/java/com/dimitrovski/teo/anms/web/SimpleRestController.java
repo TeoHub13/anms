@@ -10,7 +10,7 @@ public class SimpleRestController {
 
     @GetMapping("/hello")
     public String getString() {
-        return "Hello world!";
+        return "Hello world, have a nice day!";
     }
 
 }
