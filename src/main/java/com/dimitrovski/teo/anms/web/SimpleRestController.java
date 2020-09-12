@@ -17,4 +17,10 @@ public class SimpleRestController {
     public String getNewSting() {
         return "New string!";
     }
+
+    @GetMapping("point")
+    public String getChanges()
+    {
+        return "commit changes";
+    }
 }
