@@ -23,4 +23,9 @@ public class SimpleRestController {
     {
         return "commit changes";
     }
+    @GetMapping("final")
+    public String getReload()
+    {
+        return "systemctl restart works";
+    }
 }
