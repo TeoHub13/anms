@@ -13,4 +13,8 @@ public class SimpleRestController {
         return "Hello world, have a nice day!";
     }
 
+    @GetMapping("new")
+    public String getNewSting() {
+        return "New string!";
+    }
 }
