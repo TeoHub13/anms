@@ -26,6 +26,6 @@ public class SimpleRestController {
     @GetMapping("final")
     public String getReload()
     {
-        return "systemctl restart works perfect!";
+        return "systemctl restart works perfecty fine!";
     }
 }
