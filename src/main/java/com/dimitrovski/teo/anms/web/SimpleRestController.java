@@ -31,6 +31,6 @@ public class SimpleRestController {
     @GetMapping("press")
     public String lastJob()
     {
-        return "job";
+        return "jobsss";
     }
 }
